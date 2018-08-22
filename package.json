@@ -1,6 +1,9 @@
 {
   "name": "tom-schweers",
   "version": "0.0.0",
+  "engines": {
+    "node": "10.6.4"
+  },
   "author": "Tom Schweers",
   "private": true,
   "scripts": {
