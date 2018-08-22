@@ -1,29 +1,26 @@
-## Setup
+## Welcome
+This repository is in active development for my own personal use. Things may or may not be broken. Please see this repository: https://github.com/tomschweers/vue-full-stack-boilerplate instead for cloning.
+
+## Install
 
 ```bash
 $ npm install
 ```
 
-## Run development mode with hot reload
+## Dev
 
 ```bash
 $ npm run dev
 ```
 
-## Run build
+## Build
 
 ```bash
 $ npm run build
 ```
 
-Compiled code will be in `./server/public/dist/` folder.
-
-## Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-We set `NPM_CONFIG_PRODUCTION` to `false` to install `devDependencies`
+## Start
 
 ```bash
-$ heroku config:set NPM_CONFIG_PRODUCTION=false
+$ npm start
 ```
